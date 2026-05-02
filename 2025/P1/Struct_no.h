@@ -1,5 +1,5 @@
-#ifndef LISTA.H
-#define LISTA.H
+#ifndef LISTA
+#define LISTA
 #include <stdlib.h>
 
 typedef struct no{

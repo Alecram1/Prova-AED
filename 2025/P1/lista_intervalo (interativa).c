@@ -2,7 +2,7 @@
 #include "struct_no.h"
 
 Lista* lista_intervalo(Lista* l,int a,int b){
-	Lista* l2=NULL; //lista que ser� retornada
+	Lista* l2=NULL; //lista que sera retornada
 	Lista* aux=l; //verifica cada elemento da lista
 	while(aux!=NULL){
 		if(aux->info>=a && aux->info<=b)//caso esteja dentro do intervalo
